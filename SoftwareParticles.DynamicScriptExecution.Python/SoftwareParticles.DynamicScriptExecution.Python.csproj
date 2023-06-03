@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="IronPython" Version="3.4.0" />
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SoftwareParticles.DynamicScriptExecution.Core\SoftwareParticles.DynamicScriptExecution.Core.csproj" />
+    <ProjectReference Include="..\SoftwareParticles.DynamicScriptExecution.DotNet\SoftwareParticles.DynamicScriptExecution.DotNet.csproj" />
+  </ItemGroup>
+
+</Project>
