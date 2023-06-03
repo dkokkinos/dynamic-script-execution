@@ -1,3 +1,5 @@
+### full blog post -> https://softwareparticles.com/how-to-dynamically-execute-code-in-net/
+
 # How To Dynamically Execute Code In .NET.
 
 Executing code dynamically without precompiling is a powerful feature that can enhance the capabilities of an application. In this article we explore how we can execute C# and Visual Basic code dynamically at runtime, without the need for precompilation. We will dive into the steps involved in the dynamic compilation process, including referencing external DLLs, adding imports, and handling potential errors. By the end of this article, you will have a full understanding of dynamic code execution with a fully functional library that takes code as input, executes it dynamically, and returns the desired result.
