@@ -21,7 +21,7 @@ namespace DynamicScriptExecutionTests
         }
 
         // execute class with main method,
-        // execute class without main method, prepei na kanoume emeis provide ena method name gia call
+        // execute class without main method, we shoule provide a method to call
         // execute method me to method template
 
         [Test]
@@ -149,13 +149,6 @@ def greetings():
 "));
 
             var r = controller.Execute(new CallArguments(methodName: "greetings"), new List<ParameterArgument>());
-        }
-
-        [Test]
-        public void PythonMethodTemplateExecutionTest()
-        {
-            var controller = new PythonDynamicScriptController();
-
         }
     }
 }
